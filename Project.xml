@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Corruption Zenith Build" file="ZenithBuild" packageName="com.pzen.cbuild" package="com.pzen.cbuild" main="Main" version="1.0" company="PZen1th" />
+	<app title="Friday Night Funkin': Zenith Engine" file="ZenithEngine" packageName="com.parkzenith77.zenithengine" package="com.parkzenith77.zenithengine" main="Main" version="0.2.8" company="ParkZenith77" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -191,8 +191,8 @@
 	<!-- _________________________________ Android Stuff _______________________________ -->
 	<config:android permission="android.permission.READ_EXTERNAL_STORAGE" if="android"/>
 	<config:android permission="android.permission.WRITE_EXTERNAL_STORAGE" if="android"/>
-  <!--<config:android gradle-version="7.5.1" />
-  <config:android gradle-plugin="7.3.1" />-->
+  <config:android gradle-version="7.5.1" />
+  <config:android gradle-plugin="7.3.1" />
 
 	<!-- _________________________________ Custom _______________________________ -->
 
